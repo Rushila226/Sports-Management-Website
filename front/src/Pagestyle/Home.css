@@ -1,0 +1,209 @@
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../Components/Assests/pho.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+.header-content{
+    margin-bottom:150px;
+    color:red;
+    text-align: center;
+    background: none;
+
+    
+    
+}
+
+.header-content .transform-text{
+    font-size:4vmin;
+    animation: transformAnimation 1.5s ease-out;
+    background: none;
+    /* animation-delay: 1s; */
+}
+.line{
+    width:150px;
+    height:4px;
+    background: whitesmoke;
+    margin:10px auto;
+    border-radius:5px;
+   
+
+
+}
+.header-content .transform-texts{
+    font-size:7vmin;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    animation: transformAnimation 1.5s ease-out;
+    background: none;
+
+    /* animation-delay: 1s; */
+}
+@keyframes transformAnimation {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+.sports{
+    width:80%;
+    margin:80px auto;
+    text-align: center;
+}
+.sports h1{
+    text-align: center;
+   padding-top: 60px;
+   margin-bottom: 20px;
+   font-size: 70px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sport{
+    /* flex-basis: 30%; */
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 5px;
+    
+    width:300px;
+    height: 390px;
+ 
+
+}
+.sport img{
+    width: 100%;
+    object-fit: cover;
+    height: 390px;
+   
+}
+.layer{
+    background: transparent;
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    transition: 0.5s;
+    
+}
+.layer:hover{
+    background: rgba(21, 21, 21, 0.6);
+    height: 100%;
+   
+}
+.layer:hover:after{
+    content:attr(data-hover);
+    /* margin-top: 20px; */
+    font-size: 40px;
+    line-height: 24px;
+    font-weight: 550;
+    color: rgb(249, 6, 6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+   
+        
+    
+}
+.head{
+    text-align: center;
+    margin-left: 450px;
+    font-size: 70px;
+}
+.bookss{
+    /* margin:40px 110px 40px 110px; */
+    display: flex;
+    
+    max-height:750px;
+    align-items: center;
+    margin: 40px 40px 0 60px;
+    border: 2px solid white;
+    width:1200px;
+    max-height: 1000px;
+    
+    
+    
+}
+.deatils{
+    
+    color:whitesmoke;
+    padding: 30px;
+    width:80%;
+    text-align: left;
+    
+
+}
+.btn{
+    color: whitesmoke;
+}
+.deatils h3{
+    font-size: 34px;
+    margin-bottom: 15px;
+}   
+.deatils p{
+    
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.btn{
+   margin-left: 40px;
+   margin-right: 40px;
+}
+/* .extra{
+    position: absolute;
+} */
+.red{
+    background: #bd2323ee;
+    height: 50px;
+    width: 125px;
+    padding-top: 10px;
+   padding-left: 20px;
+   font-size: 30px;
+    font-weight: 500;
+    border-radius: 5px;
+    color:white;
+    
+}
+
+.red:hover{
+    background: #ff0000;
+    font-weight: 1000;
+    box-shadow:  0 5px 15px rgba(160, 148, 148, 0.5);
+    border-radius: 0px;
+    padding-left: 15px;
+   
+}
+
+/* .animate-me {
+    background: white;
+    opacity: 0; /* Initially hide the element */
+    /* transition: opacity 2s ease; Smooth transition for opacity */
+    /* left:100%; */
+    
+  /* } */
+  /* .animate-me.animate { */
+    /* opacity: 1; Make the element visible */
+    /* transition:2s ease ;
+    background: white;
+    
+    transform: translateX(-8.5%);
+  } */
+.extra{
+    margin-bottom: 300px;
+}

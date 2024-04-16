@@ -1,0 +1,388 @@
+.containers{
+    padding: 20px  100px;
+    display: block;
+    
+    
+}
+.containers h2{
+    color:white;
+    font-size:50px;
+}
+.containers h4{
+    color:white;
+    font-weight:500;
+}
+
+.idk{
+    display:flex;
+    justify-content:space-between;
+    padding-left: 75px;
+    padding-right: 75px;
+    
+   
+} 
+/* photos sliding */
+.idk .slide  {
+    width: 60%;
+    margin-left: 2px;
+    border: 2px solid #ffffff;
+    border-radius: 2.5px;     
+    height: 500px; 
+  
+    overflow: hidden;   
+}
+ 
+.swiper{
+    width: 100%;
+    height:100%;
+}
+.swiper .swiper-button-prev,.swiper .swiper-button-next
+{
+    color:#E3E6F3;
+    
+}
+.swiper .swiper-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.swiper .swiper-slide {
+    flex: 0 0 auto; 
+    width: 100%; 
+    overflow: hidden;
+}
+.swiper .swiper-slide {
+    width: 100%; 
+    overflow:hidden;
+ 
+}
+.swiper .swiper-slide img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    padding: 3px 3px; 
+}
+/* book time map right side   */
+.rights {
+    display: flex;
+    flex-direction: column;
+    margin-left:20px;
+    width:36%;
+    
+}
+
+.rights > div {
+    margin-bottom: 20px;
+}
+
+.b button {
+    background-color: #9D0B28;
+    border: 2px solid #9D0B28;
+    border-radius: 10px;
+    
+    width:100%;
+    height: 60px;
+    color:white;
+    font-size:45px;
+    text-align: center;
+    font-weight: 550;
+  
+
+}
+.b button h4{
+    background: #9D0B28;
+} 
+
+
+/* time  */
+
+.time {
+    width:96%;
+    /* background-color:#ddbfbf; */
+    border: 2px solid #d4c1c1;
+    border-radius: 2px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   
+}
+
+.time h2 {
+   
+    font-size: 40px;
+    color:#ffffff;
+}
+.time h2,.time h4{
+    margin-left: 20px;
+    color:#ffffff;
+}
+/* maps  */
+.maps {
+    width:99%;
+    height:336px;
+    border: 1.5px solid #d4c1c1 ;
+    border-radius: 5px;
+    padding: 2px;
+
+}
+.maps iframe{
+    width:100%;
+    
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px; */
+    /* border-radius: 5px; */
+  
+}
+.maps h4{
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* down details  */
+.extra{
+    display:flex;
+    justify-content:left;
+    padding-left: 75px;
+    /* padding-right: 75px; */
+    flex-direction: column;
+    width:54%;
+    padding-right: 15px;
+    
+  
+    
+   
+} 
+
+/* sport and type sport  */
+.extra .sport {
+    width: 100%;
+    margin-left: 2px;
+    border: 1.5px solid #d4c1c1;
+    border-radius: 2.5px; 
+    max-height: 155px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* margin-bottom:50px; */
+
+}
+.extra .sport h5{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.extra .sport .subsport{
+    width:90px;
+   margin-top: 5px;
+    margin-left: 90px;
+    border: 2px solid #a5a7ae;
+    box-shadow: 20px 0px 20px rgba(255, 255, 255, 0.15);
+    border-radius: 2.5px;
+    height:120px;
+    /* padding-left: 10px; */
+    text-align: center;
+    margin-bottom: 25px;
+    
+
+}
+.extra .sport .subsport img{
+    padding-top: 5px;
+    
+   
+    width:80px;
+    height:70px;
+  
+    /* margin-left: 10px; */
+
+}
+.extra .sport h6{
+    color:white;
+    border-radius: 2.5px;
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+/* aminities  */
+.extra .aminities {
+    width: 100%;
+    
+    border: 1.5px solid #d4c1c1;
+    border-radius: 2.5px; 
+    max-height: 350px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    
+    margin-top: 30px;
+   
+
+}
+.extra .aminities h5{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    color: #ffffff;
+}
+.extra .aminities .amin{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+.extra .aminities li{
+    list-style: none;
+    padding-top:3px ;
+    /* margin-left: 40px; */
+    
+    color:white;
+    display: inline-block;
+    
+
+}
+.extra .aminities .amin .icon {
+    margin-right: 3px;
+}
+.extra .aminities .amin  svg{
+    color: #ffffff;
+    padding-right: 3px;
+    
+   
+   
+}
+
+
+/* about tht place  */
+.extra .about {
+    width: 100%;
+    margin-top: 20px;
+    border: 1.5px solid #d4c1c1;
+    border-radius: 2.5px; 
+    max-height: 550px; 
+   
+    
+   
+
+}
+.extra .about h5{
+    font-size: 20px;
+    
+    color: #ffffff;
+    padding-left: 10px;
+    font-weight:500 ; 
+    margin-top: 2px; 
+
+    
+}
+.extra .aboutinfo{
+    margin-top: 10px;
+}
+
+.extra .aboutinfo p{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 350;
+    padding-left: 25px;
+    
+
+}
+@media  (max-width: 995px) {
+    .idk {
+        flex-direction: column;
+        /* Change to column layout for smaller screens */
+        justify-content: center;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .idk .slide {
+        width: 100%;
+       
+    }
+    .rights {
+       
+        width: 100%;
+        margin-top:40px;
+        margin-left:0px;
+        
+            display: flex;
+            flex-direction: row;
+            flex-wrap:wrap;
+            justify-content: space-between;
+            align-items: center;
+          
+    
+    }
+    .container {
+        padding: 20px  60px;
+        margin-bottom: 10px;
+    }
+    .b {
+       
+        width: 30%;
+        height: 60px;
+        margin-left: 10px;
+    }
+    .b h2{
+        font-size:35px;
+    }
+    .time {
+        width: 60%;
+        margin-right: 10px;
+    }
+    .maps {
+        
+        max-height: 350px;
+        
+    }
+    .extra {
+        
+        padding-left: 25px;
+        padding-right: 25px;
+        
+        width: 100%;
+    }
+    .links{
+        margin-top: 400px;
+    }
+}
+@media all and (max-width: 550px){
+
+    .idk .slide {
+       
+        height: 300px;
+       
+    }
+}
+@media all and (max-width: 430px){
+    .idk .slide {
+       
+        max-width: 400px;
+       
+    }
+    .rights{
+        flex-direction: column;
+    }
+    .b{
+        width: 100%;
+        margin-left: 0px;
+        
+       
+    }
+    .time{
+        width: 100%;
+        margin-right: 0px;
+        
+    }
+   
+    
+}

@@ -1,0 +1,27 @@
+.booked {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    margin: 160px 80px 0 550px;
+    position: relative;
+   
+  }
+.booked p{
+    background-color: white;
+    text-align: center;
+    /* margin-top: 50px; */
+    
+
+    color:black;
+}
+.booked .icon{
+    background-color: white;
+    position: absolute;
+    left:80px;
+    top:13px;
+    
+
+}

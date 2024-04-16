@@ -1,0 +1,300 @@
+.h4,p,h3{
+    color:white;
+}
+.page {
+    display: flex;
+    justify-content: space-between;
+    /* gap:40px; */
+
+    /* background: v(--red-2) */
+    margin-bottom: 600px;
+    
+
+}
+.page .left {
+    /* border: 2px solid #0c1010;
+    border-radius: 10px;  */
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-left: 20px;
+    max-height: 800px;
+    /* height:300px; */
+    /* justify-content: space-between; */
+    padding-top: 40px;
+
+}
+.page .left .left1 {
+    margin-top: 20px;
+    border: 1.5px solid grey;
+    border-radius: 10px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+    margin-left: 80px;
+    width: 70%;
+
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left1 .pic {
+
+    height: 200px;
+
+    /* border: 1px solid #1a1a1a; */
+    /* to change thecolor border  */
+    border-radius: 10px;
+
+    padding: 0px;
+    overflow: hidden;
+
+
+
+
+}
+.pic img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.equipments {
+
+    padding: 10px;
+    max-height: 200px;
+    /* border: 2px solid #6e7e47; */
+}
+
+.equipments li {
+    list-style: none;
+    display: inline-block;
+    padding: 7px;
+
+}
+
+.aboveline {
+    border-top: 1px solid rgb(253, 253, 253);
+    /* Adjust the style, color, and width as needed */
+
+    width: 90%;
+    margin: 0 auto;
+    height: 2px;
+
+
+
+}
+
+.infor {
+    padding: 15px;
+    max-height: 450px;
+    /* border: 2px solid #6e7e47; */
+   border-radius:10px ;
+
+}
+
+/* right side */
+.page .right {
+    /* display:flex;
+    flex-direction: column; */
+    /* padding-left:60px;
+    padding-top: 60px; */
+    /* border: 2px solid #132322;
+    border-radius: 10px; */
+    flex-direction: column;
+    display: flex;
+    width: 69%;
+
+    height: 1000px;
+    /* margin-top: 20px; */
+    padding-right: 90px;
+
+    flex-grow: 1;
+}
+
+
+/* right side heading */
+.page .right .heading {
+    /* border: 2px solid #477e7b;
+    border-radius: 10px; */
+    height: 50px;
+    margin-top: 50px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+
+
+}
+.heading .aa{
+    font-size:50px;
+    color:whitesmoke
+}
+.page .right .right1 {
+    border: 1.5px solid whitesmoke;
+    border-radius: 80px;
+    height: 70px;
+    margin-bottom: 20px;
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 52px;
+    position: relative;
+    transition: 0.23s ease;
+
+
+}
+
+.page .right1 button {
+    border: 1px solid #dad9d9;
+    border-radius: 25px;
+    width: 15%;
+    min-height: 100px;
+    margin: 10px;
+    background-color: #d7d5d5;
+    
+    /* background-color: #ffffff; */
+
+    
+}
+.page .right1 button h4{
+    font-size: 25px;
+    background-color: #d7d5d5;
+    color:black;
+
+}
+
+
+.right .right1 button:hover
+ {
+    border: 2.5px solid #de0505;
+}
+
+
+
+
+
+.page .right .right2 {
+    border: 2px solid grey;
+    border-radius: 10px;
+    max-height: 2000px;
+    
+
+
+
+}
+
+/* right side part2 details */
+.right2 .about {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    /* border:  2px solid #131414; */
+}
+.about .name h3{
+    font-size:22px;
+} 
+.about .timing{
+    color:white;
+    font-size:18px;
+}
+/* right side tht checkbox and img and detalis */
+.right2 .box {
+    /* border:  2px solid #131414; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    /* padding-left: 20px; */
+    
+}
+.right2 .box .use{
+    width:90%;
+    display:flex;
+    flex-direction: row;
+   
+    
+    /* position: relative; */
+}
+/* checkbox */
+/* input[type="checkbox"] {
+    float:left;
+    appearance: none;
+    -webkit-appearance: none;
+    height: 30px;
+    width: 30px;
+    background-color: #d5d5d5;
+    border-radius: 50%;
+    cursor: pointer;
+   
+    outline: none;
+    
+    margin-top: 100px;
+    margin-right: 4px;
+   
+
+   
+} */
+
+
+
+.right2 .rectangle {
+    background-color: rgb(222, 220, 220);
+    width:90%;
+    margin: 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    height:125px;
+
+}
+
+
+.rectangle .imgUtube {
+
+    height: 165px;
+    width: 30%;
+    border: 1px solid #1a1a1a;
+    /* to change thecolor border  */
+    border-radius: 10px;
+
+    overflow: hidden;
+
+
+
+
+}
+
+.imgUtube img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.rectangle .moreinfo {
+    margin: 10px 10px 5px 25px;
+   
+    padding: 5px 10px 0 10px;
+    background-color: rgb(222, 220, 220);
+    
+}
+.rectangle .moreinfo h3{
+    font-size: 16px;
+    font-weight: 547;
+    background-color: rgb(222, 220, 220);
+    color:black;
+}
+
+.equipments .forabout li {
+    color:white;
+    font-size: 18px;
+    
+}
+.equipments ul{
+    padding: 0;
+}
